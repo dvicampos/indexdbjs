@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    gap: 1rem;
+}
+img {
+    max-width: 100px;
+    margin-top: 1rem;
+}
+.error-text {
+    color: red;
+    font-size: 0.85em;
+}
