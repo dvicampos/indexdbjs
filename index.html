@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Datos personales</h1>
+    <form id="formulario">
+        <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+        <input type="text" id="apellido" placeholder="Ingrese un apellido" required>
+        <input type="number" id="edad" placeholder="Ingrese su edad" required>
+        <input type="date" id="fecha" placeholder="Ingrese su fecha de nacimiento" required>
+        <input type="file" id="imagen" accept="image/*" required>
+        <button type="submit">Guardar datos</button>
+    </form>
+    <h2>Registros guardados</h2>
+    <ul id="lista">
+
+    </ul>
+    <script src="app.js"></script>
+</body>
+</html>
